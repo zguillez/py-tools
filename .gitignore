@@ -2,3 +2,5 @@
 .DS_Store
 node_modules
 libs
+.eggs
+__pycache__
