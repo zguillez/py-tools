@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+.serverless
+.aws-sam
+temp
+node_modules
+libs
+__pycache__
