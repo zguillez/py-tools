@@ -1,5 +1,6 @@
 import subprocess
 import os
+import sys
 
 def capture(command):
     proc = subprocess.Popen(command,
@@ -12,7 +13,7 @@ def capture(command):
 
 def test_test():
     os.environ["PYTHONPATH"] = "."
-    exit_code, out, err = capture(["python", "examples/test.py"])
+    exit_code, out, err = capture([sys.executable, "examples/test.py"])
     assert exit_code == 0
     assert out == "test1\ntest2\n"
     assert err == ""
