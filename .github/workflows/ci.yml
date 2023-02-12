@@ -29,7 +29,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python setup.py
+        python setup.py build
+        pip install pytest
 
     - name: Check Python version
       run: python -V
