@@ -1,6 +1,6 @@
-import py_tools
-from py_tools import helper
+import python_toolz
+from python_toolz import helper
 
 
-py_tools.log("test1")
+python_toolz.log("test1")
 helper.log("test2")

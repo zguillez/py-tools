@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: python-toolz
-Version: 0.1.0
+Version: 0.1.4
 Summary: Pyton helpers
-Home-page: https://github.com/zguillez/py-toolz
+Home-page: https://github.com/zguillez/python-toolz
 Author: Guillermo de la Iglesia
 Author-email: mail@zguillez.io
 Classifier: Programming Language :: Python :: 3
@@ -11,4 +11,18 @@ Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# py-toolz
+# python-toolz v0.1.4
+
+```pip install --upgrade python-toolz```
+
+```
+import python_toolz
+
+python_toolz.log("test1")
+```
+
+```
+from python_toolz import helper
+
+helper.log("test2")
+```

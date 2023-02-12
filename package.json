@@ -1,0 +1,25 @@
+{
+  "name": "python-toolz",
+  "version": "0.1.4",
+  "description": "Pyton helpers",
+  "repository": "https://github.com/zguillez/python-toolz",
+  "license": "MIT",
+  "author": {
+    "name": "Guillermo de la Iglesia",
+    "email": "guillermo@delaiglesia.email",
+    "url": "https://gitlab.com/zguillez"
+  },
+  "main": "python_toolz",
+  "scripts": {
+    "clean": "find . -type f -name .DS_Store -exec rm -f {} \\;",
+    "deploy": "npm run version && npm run deploy:lite",
+    "deploy:lite": "rm -rf ./dist && rm -rf ./*.egg-info && python setup.py sdist && twine upload dist/*",
+    "libs": "pip install -r requirements.txt -t libs/python --upgrade",
+    "version": "./bin/version"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "minimist": "^1.2.8",
+    "replace": "^1.2.2"
+  }
+}
