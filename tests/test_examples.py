@@ -18,9 +18,12 @@ def test_test():
     exit_code, out, err = capture([sys.executable, "examples/main.py"])
     if 'DB_HOST' in os.environ and 'DB_NAME' in os.environ and 'DB_USER' in os.environ and 'DB_PASS' in os.environ:
         assert exit_code == 0
-        assert out == "test\nMarcilla\ndone!\n"
         assert err == ""
+        assert out == "test\nMarcilla\ndone!\n"
     else:
+        print("***********")
+        print(err)
+        print("***********")
         assert exit_code == 1
-        assert out == "test\n"
         assert err != ""
+        assert out == "test\n"
