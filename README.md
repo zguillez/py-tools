@@ -9,7 +9,7 @@
 ## Install
 
 ```
-ip install --upgrade python-toolz
+pip install --upgrade python-toolz
 ```
 
 # Usage
