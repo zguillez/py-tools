@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
         name='python-toolz',
-        version='0.1.7',
+        version='0.1.8',
         author='Guillermo de la Iglesia',
         author_email='mail@zguillez.io',
         description='Pyton helpers',
