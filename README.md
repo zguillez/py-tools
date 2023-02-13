@@ -29,7 +29,7 @@ helper.log("test2")
 # Contributing and issues
 
 Contributors are welcome, please fork and send pull requests! If you have any ideas on how to make this project better
-then please submit an issue or send me an [email](mailto:guillermo@delaiglesia.email).
+then please submit an issue or [email](mailto:guillermo@delaiglesia.email) me.
 
 # License
 

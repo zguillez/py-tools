@@ -15,7 +15,7 @@ def capture(command):
 
 def test_test():
     os.environ["PYTHONPATH"] = "."
-    exit_code, out, err = capture([sys.executable, "examples/test.py"])
+    exit_code, out, err = capture([sys.executable, "examples/main.py"])
     assert exit_code == 0
     assert out == "test1\ntest2\n"
     assert err == ""
