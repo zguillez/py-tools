@@ -1,4 +1,4 @@
-# python-toolz v0.1.5
+# python-toolz v0.1.6
 
 > [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
 
