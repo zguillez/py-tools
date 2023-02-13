@@ -21,9 +21,6 @@ def test_test():
         assert err == ""
         assert out == "test\nMarcilla\ndone!\n"
     else:
-        print("***********")
-        print(err)
-        print("***********")
         assert exit_code == 1
         assert err != ""
         assert out == "test\n"
