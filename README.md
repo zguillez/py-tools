@@ -1,4 +1,4 @@
-# python-toolz v0.1.4
+# python-toolz v0.1.5
 
 ```pip install --upgrade python-toolz```
 
